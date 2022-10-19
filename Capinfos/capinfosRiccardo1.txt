@@ -1,0 +1,28 @@
+SLACK (RICCARDO)
+File name:           /home/so/Scaricati/Riccardo/RDC_G009/RDC_G009/1637165893/traffic.pcap
+File type:           Wireshark/tcpdump/... - pcap
+File encapsulation:  Ethernet
+File timestamp precision:  microseconds (6)
+Packet size limit:   file hdr: 262144 bytes
+Number of packets:   131 k
+File size:           21 MB
+Data size:           19 MB
+Capture duration:    917,758420 seconds
+First packet time:   2021-11-17 17:18:23,092712
+Last packet time:    2021-11-17 17:33:40,851132
+Data byte rate:      20 kBps
+Data bit rate:       165 kbps
+Average packet size: 144,85 bytes
+Average packet rate: 142 packets/s
+SHA256:              727497ab0efcbd495cc507ba28e9a4162c2dec207376fc9da65ef7b5081173c6
+RIPEMD160:           619ad14d9eee33f9a876a0e02b6f9be733d207a9
+SHA1:                f284a85e683330e92e49511035c64afbc9e9aac8
+Strict time order:   False
+Number of interfaces in file: 1
+Interface #0 info:
+                     Encapsulation = Ethernet (1 - ether)
+                     Capture length = 262144
+                     Time precision = microseconds (6)
+                     Time ticks per second = 1000000
+                     Number of stat entries = 0
+                     Number of packets = 131209

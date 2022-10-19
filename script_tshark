@@ -1,0 +1,29 @@
+#!/bin/bash
+echo "Benvenuto!"
+read junk
+sync
+echo "Premi invio per generare il file dei biflussi TCP"
+read junk 
+sync
+tshark -r traffic.pcap -qz conv,tcp > tcp_conversations.csv
+echo "OK.. Generato"
+echo "Premi invio per generare il file dei biflussi UDP"
+read junk
+sync
+tshark -r traffic.pcap -qz conv,udp > udp_conversations.csv
+echo "OK.. Generato"
+echo "Premi invio per generare il file delle richieste DNS"
+read junk
+sync
+tshark -r traffic.pcap -T fields -e frame.time_epoch -e frame.protocols -e ip.src -e ip.dst -e ip.proto -e tcp.srcport -e tcp.dstport -e dns.a -e dns.qry.name -Y "(dns.flags.response == 1)" > dns_conversations.csv
+echo "OK.. Generato"
+echo "Premi invio per generare il file delle richieste SSL con campo SNI valido"
+read junk
+sync
+tshark -r traffic.pcap -T fields -e frame.time_epoch -e frame.protocols -e ip.src -e ip.dst -e ip.proto -e tcp.srcport -e tcp.dstport -e tls.handshake.extensions_server_name -Y "(tls.handshake.extensions_server_name)" > tls_conversations.csv
+echo "OK.. Generato"
+echo "Premi invio per generare il file delle richieste HTTP con campo host valido"
+read junk
+sync
+tshark -r traffic.pcap -T fields -e frame.time_epoch -e frame.protocols -e ip.src -e ip.dst -e ip.proto -e tcp.srcport -e tcp.dstport -e http.host -Y "(http.host)" > http_conversations.csv
+echo "OK.. Generato"

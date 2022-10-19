@@ -1,0 +1,28 @@
+MEET (LUCA)
+File name:           /home/so/Scaricati/Luca/RDC_G009/RDC_G009/1634291442/traffic.pcap
+File type:           Wireshark/tcpdump/... - pcap
+File encapsulation:  Ethernet
+File timestamp precision:  microseconds (6)
+Packet size limit:   file hdr: 262144 bytes
+Number of packets:   103 k
+File size:           16 MB
+Data size:           14 MB
+Capture duration:    921,660423 seconds
+First packet time:   2021-10-15 11:50:47,454615
+Last packet time:    2021-10-15 12:06:09,115038
+Data byte rate:      15 kBps
+Data bit rate:       126 kbps
+Average packet size: 140,46 bytes
+Average packet rate: 112 packets/s
+SHA256:              07916cb6c3d81c1fa4a93f81923e65761fb8b6c2414c21cbb97f753ed75ef03e
+RIPEMD160:           142a94aef6699c9f12fae498428fd18f2516dde9
+SHA1:                2ac843d84205163e5be0bc0f155850fbb28eefa4
+Strict time order:   False
+Number of interfaces in file: 1
+Interface #0 info:
+                     Encapsulation = Ethernet (1 - ether)
+                     Capture length = 262144
+                     Time precision = microseconds (6)
+                     Time ticks per second = 1000000
+                     Number of stat entries = 0
+                     Number of packets = 103535

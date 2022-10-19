@@ -1,0 +1,6 @@
+1634292513.010111000	eth:ethertype:ip:tcp:tls	192.168.20.103	142.250.180.74	6	59128	443	meetings.googleapis.com
+1634292518.271110000	eth:ethertype:ip:tcp:tls	192.168.20.103	142.250.184.106	6	53992	443	hangouts.googleapis.com
+1634292624.727161000	eth:ethertype:ip:tcp:tls	192.168.20.103	216.58.206.74	6	60653	443	android.googleapis.com
+1634292626.043164000	eth:ethertype:ip:tcp:tls	192.168.20.103	216.58.206.74	6	60654	443	play.googleapis.com
+1634292807.286249000	eth:ethertype:ip:tcp:tls	192.168.20.103	142.250.180.65	6	54471	443	lh3.googleusercontent.com
+1634292943.591309000	eth:ethertype:ip:tcp:tls	192.168.20.103	142.250.180.174	6	50484	443	app-measurement.com
